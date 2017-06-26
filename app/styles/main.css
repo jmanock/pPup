@@ -9,13 +9,16 @@
 body{
 
 }
+a{
+  cursor:pointer;
+}
 #header img{
   width:100%;
   margin-top:-7%;
   z-index:100;
 }
 .navbar{
-  margin-top:-4.5%;
+  margin-top:-5%;
   background-color:transparent !important;
   padding:0 !important;
   border:0 !important;
@@ -26,8 +29,8 @@ body{
 .navbar-nav > li > a{
   color:#222 !important;
   font-size:1.1em;
-  border-top:1.3px solid #222;
-  border-bottom:1.3px solid #222;
+  border-top:1.4px solid #222;
+  border-bottom:1.4px solid #222;
 }
 .fa-paw{
   color:#222;
@@ -120,14 +123,12 @@ b{
   font-size:1.1em;
 }
 footer{
+  padding:50px 0;
   background-color:#222;
-  margin-top:7%;
-  height:75px;
-  width:100%;
+  margin-top:10%;
+  text-align:center;
 }
 footer > p{
-  color:white;
-  text-align:center;
   font-family:workSansLight;
-  border:1px solid red;
+  color:white;
 }
