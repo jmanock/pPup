@@ -93,5 +93,41 @@ b{
   margin-right:10%;
 }
 .icons > li > a:hover{
-  color:orange !important;
+
+}
+#author{
+  margin-top:10%;
+}
+#author > #elisa{
+  float:right;
+  margin-right:10%;
+}
+#author > p{
+  font-family:workSansLight;
+  font-size:1.1em;
+  margin-left:15%;
+}
+#illustrator{
+  margin-top:15%;
+}
+#illustrator > #jason{
+  float:left;
+  margin-left:15%;
+  margin-right:10px;
+}
+#illustrator > p{
+  font-family:workSansLight;
+  font-size:1.1em;
+}
+footer{
+  background-color:#222;
+  margin-top:7%;
+  height:75px;
+  width:100%;
+}
+footer > p{
+  color:white;
+  text-align:center;
+  font-family:workSansLight;
+  border:1px solid red;
 }
