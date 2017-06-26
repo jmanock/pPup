@@ -129,7 +129,7 @@ footer{
   background-color:#222;
   text-align:center;
 }
-footer > p{
+footer > span{
   font-family:workSansLight;
   color:white;
 }
