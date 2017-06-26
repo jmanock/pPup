@@ -1,4 +1,14 @@
+@font-face{
+  font-family:workSansLight;
+  src:url('../fonts/work-sans/WorkSans-Light.otf');
+}
+@font-face{
+  font-family:webzai;
+  src:url('../fonts/webzai-icons.woff');
+}
+body{
 
+}
 #header img{
   width:100%;
   margin-top:-7%;
@@ -50,4 +60,38 @@ b{
   position:absolute;
   bottom:0;
   z-index:10;
+}
+#about{
+
+}
+#bookcover{
+  float:right;
+  margin-right:20%;
+  margin-top:-3%;
+  height:20%;
+  width:20%;
+}
+#about h4{
+  color:#106C98 !important;
+  font-size:2em !important;
+  margin-left:15%;
+  margin-top:5% !important;
+
+}
+#about >p, button{
+  margin-left:15% !important;
+  font-family:workSansLight;
+  font-size:1.1em;
+}
+.icons{
+  font-size:2em;
+  margin-left:20%;
+  color:#106c98;
+}
+.icons > li{
+  display:inline-block;
+  margin-right:10%;
+}
+.icons > li > a:hover{
+  color:orange !important;
 }
