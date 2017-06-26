@@ -1,5 +1,3 @@
 $(document).ready(function(){
-  $('button').on('click', function(){
-    console.log('helloFriend');
-  });
-});
+  
+});// End `Document`
