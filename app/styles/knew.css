@@ -10,7 +10,7 @@ header > img{
   z-index:2;
   height:25%;
   width:25%;
-  bottom:0;
+  bottom:20%;
   left:5%;
 }
 #flag{
@@ -24,17 +24,24 @@ h2{
   z-index:2;
   position:absolute;
   font-size:2em;
-  left:40%;
-  bottom:30%;
+  left:35%;
+  bottom:20%;
 }
 b{
   font-size:3em;
 }
-/*h3{
-  color:#D50002;
-  font-size:2em;
-  z-index:3;
+.kids{
   position:absolute;
-  right:20%;
-  bottom:20%;
-}*/
+  bottom:10%;
+  left:25%;
+}
+.parents{
+  position:absolute;
+  right:25%;
+  bottom:11%;
+}
+button{
+  font-size:2em;
+  background-color:;
+  color:white;
+}
