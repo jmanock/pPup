@@ -131,24 +131,36 @@ b{
   margin-right:20%;
   margin-top:-4%;
 }
+.fbinsta{
+  margin-left:15%;
+}
+.fbinsta > a{
+  font-size:1.7em;
+  color:#106c98;
+  margin-right:30px;
+}
 #draw{
   margin-top:15%;
 }
 #draw > h4{
-  text-align:center;
+
 }
 #draw > img{
   float:left;
-  height:20%;
-  width:20%;
-  margin-left:10%;
+  height:15%;
+  width:15%;
+  margin-left:12%;
   margin-right:10px;
+}
+.mySlides > img{
+  height:5%;
+  width:5%;
 }
 #hero{
   margin-top:10%;
 }
 #hero > h4{
-  
+
 }
 footer{
   padding:50px 0;
