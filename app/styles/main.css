@@ -124,6 +124,32 @@ b{
   background-color:#E9F6FD;
   margin-top:10%;
 }
+#read > img{
+  float:right;
+  height:20%;
+  width:20%;
+  margin-right:20%;
+  margin-top:-4%;
+}
+#draw{
+  margin-top:15%;
+}
+#draw > h4{
+  text-align:center;
+}
+#draw > img{
+  float:left;
+  height:20%;
+  width:20%;
+  margin-left:10%;
+  margin-right:10px;
+}
+#hero{
+  margin-top:10%;
+}
+#hero > h4{
+  
+}
 footer{
   padding:50px 0;
   background-color:#222;
