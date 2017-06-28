@@ -176,17 +176,18 @@ footer > span{
   color:white;
 }
 div.gallery{
-  margin:5px;
+  margin:25px;
   border:1px solid #ccc;
   float:left;
-  width:150px;
+  /*width:150px;
+  height:150px;*/
 }
 div.gallery:hover{
   border:1px solid #666;
 }
 div.gallery img{
-  width:100%;
-  height:auto;
+  width:205px;
+  height:150px;
 }
 div.desc{
   padding:15px;
