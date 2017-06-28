@@ -108,6 +108,10 @@ b{
 #author{
   margin-top:10%;
 }
+#elisa{
+  width:20%;
+  height:20%;
+}
 #author > #elisa{
   float:right;
   margin-right:10%;

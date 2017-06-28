@@ -1,3 +1,1 @@
-$(document).ready(function(){
-  
-});// End `Document`
+console.log('\'Allo \'Allo!');
