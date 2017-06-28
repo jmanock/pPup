@@ -198,6 +198,8 @@ div.desc{
   margin-top:3%;
   float:left;
   width:200px;
+  border-bottom:1px solid #333;
+  cursor:pointer;
 }
 .gall:hover{
   border:1px solid #333;
