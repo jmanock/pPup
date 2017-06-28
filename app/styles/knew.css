@@ -1,4 +1,4 @@
-body{
+/*body{
   margin:0;
 }
 header > img{
@@ -9,9 +9,9 @@ header > img{
   position:absolute;
   z-index:2;
   height:25%;
-  width:25%;
+  width:20%;
   bottom:20%;
-  left:5%;
+  left:7%;
 }
 #flag{
   opacity:.5;
@@ -42,6 +42,6 @@ b{
 }
 button{
   font-size:2em;
-  background-color:;
+  background-color:green;
   color:white;
-}
+}*/
