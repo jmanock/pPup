@@ -1,0 +1,184 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Patriot Kids</title>
+  <link rel="stylesheet" href="styles/knew.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section id='read'>
+    <h3>Let's Read!</h3>
+    <p>Get your reader read to follow along with Patriot Pup as he learns all about patriotism.</p>
+    <p>Don't forget to follow us to get the latest updates on where Patriot Pup has been and all other Patriot Pup news!</p>
+    <img src="images/bookCover.jpg" alt="" class='book'>
+    <div class="logos">
+      <a href="facebook.com" class='fa fa-facebook icons'></a>
+      <a href="instagram.com" class='fa fa-instagram icons'></a>
+    </div>
+  </section>
+  <section id='lightbox'>
+    <div class="row">
+      <div class="column">
+        <img src="images/kArt/one.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currentSlide(1)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/two.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currenSlide(2)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/three.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currentSlide(1)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/four.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currenSlide(2)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/five.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currentSlide(1)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/six.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currenSlide(2)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/seven.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currentSlide(1)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/eight.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currenSlide(2)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/nine.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currentSlide(1)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/ten.jpg" alt="" style='width:100%;' class='hover-shadow cursor' onclick='openModal();currenSlide(2)'>
+      </div>
+      <div class="column">
+        <img src="images/kArt/eleven.jpg" alt="" style='widht:100%;' class='hover-shadow cursor'>
+      </div>
+    </div>
+    <div id="myModal" class='modal'>
+      <span class='close cursor' onclick='closeModal()'>&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1 / 11</div>
+          <img src="images/kArt/one.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 11</div>
+          <img src="images/kArt/two.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 11</div>
+          <img src="images/kArt/three.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">4 / 11</div>
+          <img src="images/kArt/four.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">5 / 11</div>
+          <img src="images/kArt/five.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">6 / 11</div>
+          <img src="images/kArt/six.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">7 / 11</div>
+          <img src="images/kArt/seven.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">8 / 11</div>
+          <img src="images/kArt/eight.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">9 / 11</div>
+          <img src="images/kArt/nine.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">10 / 11</div>
+          <img src="images/kArt/ten.jpg" alt="">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">11 / 11</div>
+          <img src="images/kArt/eleven.jpg" alt="">
+        </div>
+        <a class='prev' onclick='plusSlides(-1)'>&10094;</a>
+        <a class='next' onclick='plusSlides(1)'>&10095;</a>
+        <div class="caption-container">
+          <p id='caption'></p>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/one.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(1)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/two.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(2)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/three.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(3)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/four.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(4)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/five.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(5)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/six.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(6)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/seven.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(7)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/eight.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(8)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/nine.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(9)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/ten.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(10)'>
+        </div>
+        <div class="column">
+          <img class='demo cursor'src="images/kArt/eleven.jpg" alt="Kids Art" style='width:100%;' onclick='currentSlide(11)'>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+  function openModal(){
+    document.getElementById('myModal').style.display='block';
+  }
+  function closeModal(){
+    document.getElementById('myModal').style.display='none';
+  }
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  function plusSlides(n){
+    showSlides(slideIndex += n);
+  }
+  function currentSlide(n){
+    showSlides(slideIndex = n);
+  }
+  function showSlides(n){
+    var i;
+    var slides = document.getElementsByClassName('mySlides');
+    var dots = document.getElementsByClassName('demo');
+    var captionText = document.getElementsById('caption');
+    if(n > slides.length){
+      slidesIndex = 1;
+    }
+    if(n < 1){
+      slideIndex = slides.length;
+    }
+    for(i = 0; i<slides.length; i++){
+      slides[i].style.display = 'none';
+    }
+    for(i = 0; i<dots.length; i++){
+      dots[i].className = dots[i].className.replace(' active', '');
+    }
+    slides[slideIndex-1].style.display = 'block';
+    dots[slideIndex-1].className += ' active';
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+</body>
+</html>
