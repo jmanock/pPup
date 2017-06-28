@@ -45,3 +45,22 @@ button{
   background-color:green;
   color:white;
 }*/
+.pup{
+  height:25%;
+  width:20%;
+}
+.left{
+  position:absolute;
+  left:5%;
+  top:0;
+}
+.right{
+  position:absolute;
+  right:5%;
+  top:0;
+}
+h1{
+  text-align:center;
+  font-size:5em;
+  margin-top:30px;
+}
