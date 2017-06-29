@@ -91,12 +91,19 @@ h1{
   border:15px solid;
   border-color:transparent #fff transparent transparent;
 }
+h3{
+  font-family:crossroads !important;
+  text-align:center;
+  text-decoration:underline;
+  font-size:2.5em !important;
+}
 #frame{
   background:url('../images/download.gif') no-repeat;
   width:800px;
   height:600px;
   padding-top:35px;
   padding-left:35px;
+  margin-left:5%;
 }
 .note{
   width:160px;
@@ -162,7 +169,11 @@ h1{
 }
 .text{
   font-family:workSansLight;
-  color:black;
+  color:#222;
+}
+b{
+  font-family:normal;
+  margin-left:3px;
 }
 #frame a{
   cursor:pointer;
@@ -174,6 +185,7 @@ a:hover.note{
   transform:scale(1.1);
   text-decoration:none;
 }
+
 /*
 div.gallery{
   margin:25px;
