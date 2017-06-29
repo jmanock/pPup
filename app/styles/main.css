@@ -55,8 +55,6 @@ h1{
   bottom:30%;
 }
 .speech{
-  font-family:workSansLight;
-  font-size:1.5em;
   position:relative;
   width:400px;
   height:200px;
@@ -90,6 +88,10 @@ h1{
   top:65px;
   border:15px solid;
   border-color:transparent #fff transparent transparent;
+}
+.speech > span{
+  font-size:3em;
+  font-family:workSansLight;
 }
 h3{
   font-family:crossroads !important;
