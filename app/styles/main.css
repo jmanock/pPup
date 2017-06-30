@@ -40,6 +40,12 @@ body{
   border-bottom:1.4px solid #222;
   cursor:pointer;
 }
+.navbar-nav > li > a:hover{
+  -webkit-transform:scale(1.1);
+  -moz-transform:scale(1.1);
+  transform:scale(1.1);
+  text-decoration:none;
+}
 .fa-paw{
   color:#222;
   margin-right:7px;
