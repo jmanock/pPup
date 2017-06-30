@@ -12,11 +12,8 @@
 }
 body{
   /*background-color:#00ffff !important;*/
-  /*background-color:#7fffd4  !important;*/
-  /*background-color:#00ced1 !important;*/
-  /*background-color:#e6e6fa !important;*/
-  /*background-color:#e0ffff !important;*/
-  background-color:#87cefa !important;
+  background-color:#00bfff !important;
+  /*background-color:#1e90ff !important;*/
 }
 #header img{
   width:100%;
@@ -55,6 +52,70 @@ h1{
   font-family:crossroads !important;
   font-size:4em !important;
   color:navy !important;
+}
+.fa-star{
+  width:100px;
+  min-height:100px;
+  margin:10px;
+  background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0,rgb(39,54,73)), color-stop(1,rgb(30,42,54)));
+  background-image:-moz-linear-gradient(center bottom, rgb(39,54,73)0%, rgb(30,42,54)100%);
+}
+.something{
+  border-style:ridge;
+  border-color:#567498;
+  border-spacing:10px;
+  min-width:100px;
+  min-height:100px;
+  float:left;
+}
+
+.star-five{
+  margin:50px 0;
+  position:relative;
+  display:block;
+  color:white;
+  width:0;
+  height:0;
+  border-right:50px solid transparent;
+  border-bottom:35px solid white;
+  border-left:50px solid transparent;
+  -moz-transform:rotate(35deg);
+  -webkit-transform:rotate(35deg);
+  -ms-transform:rotate(35deg);
+  -o-transform:rotate(35deg);
+}
+.star-five:before{
+  border-bottom:40px solid white;
+  border-left:15px solid transparent;
+  border-right:15px solid transparent;
+  position:absolute;
+  height:0;
+  width:0;
+  top:-22.5px;
+  left:-32.5px;
+  display:block;
+  content:'';
+  -webkit-transform:rotate(-35deg);
+  -moz-transform:rotate(-35deg);
+  -ms-transform:rotate(-35deg);
+  -o-transfrom:rotate(-35deg);
+}
+.star-five:after{
+  position:absolute;
+  display:block;
+  color:white;
+  top:1.5px;
+  left:-52.5px;
+  width:0;
+  height:0;
+  border-right:50px solid transparent;
+  border-bottom:35px solid white;
+  border-left:50px solid transparent;
+  content:'';
+  -webkit-transform:rotate(-70deg);
+  -moz-transform:rotate(-70deg);
+  -ms-transform:rotate(-70deg);
+  -o-transform:rotate(-70deg);
 }
 #welcome > img{
   margin-top:5%;
@@ -219,6 +280,7 @@ a:hover.note{
 footer{
   text-align:center;
 }
+
 /*
 div.gallery{
   margin:25px;
