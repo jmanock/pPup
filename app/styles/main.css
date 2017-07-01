@@ -53,21 +53,6 @@ h1{
   font-size:4em !important;
   color:navy !important;
 }
-.fa-star{
-  width:100px;
-  min-height:100px;
-  margin:10px;
-  background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0,rgb(39,54,73)), color-stop(1,rgb(30,42,54)));
-  background-image:-moz-linear-gradient(center bottom, rgb(39,54,73)0%, rgb(30,42,54)100%);
-}
-.something{
-  border-style:ridge;
-  border-color:#567498;
-  border-spacing:10px;
-  min-width:100px;
-  min-height:100px;
-  float:left;
-}
 
 .star-five{
   margin:50px 0;
