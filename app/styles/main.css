@@ -287,7 +287,34 @@ a:hover.note{
 footer{
   text-align:center;
 }
-
+#about{
+  /*font-family:crossroads;*/
+  font-family:workSansLight;
+  font-size:1.5em;
+  margin-left:25px;
+  margin-right:25px;
+}
+.elisa{
+  margin-bottom:150px;
+}
+.elisa > img{
+  border-radius:20px;
+  width:25%;
+  height:25%;
+  float:left;
+  margin-right:10px;
+}
+.jason{
+  margin-bottom:40px;
+}
+.jason > img{
+  float:right;
+}
+#about > div > h4{
+  font-size:2em;
+  text-align:center;
+  font-family:crossroads;
+}
 /*
 div.gallery{
   margin:25px;
