@@ -54,18 +54,18 @@ h1{
   color:navy !important;
 }
 .borderOne{
-  border-top:4px solid red;
-  border-bottom:4px solid red;
+  border-top:4px solid #c60000;
+  border-bottom:4px solid #c60000;
 }
 .borderTwo{
-  border-top:2px solid white;
-  border-bottom:2px solid white;
+  border-top:2px solid #f3f3f3;
+  border-bottom:2px solid #f3f3f3;
 }
 .borderThree{
-  background-color:navy;
+  background:linear-gradient(to right, #f3f3f3, navy, #f3f3f3);
 }
 .fa-star{
-  color:white;
+  color:#f3f3f3;
   overflow:hidden;
   white-space:pre;
   width:100%;
