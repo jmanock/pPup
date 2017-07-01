@@ -53,7 +53,20 @@ h1{
   font-size:4em !important;
   color:navy !important;
 }
-
+.borderOne{
+  border-top:4px solid red;
+  border-bottom:4px solid red;
+}
+.borderTwo{
+  border-top:2px solid white;
+  border-bottom:2px solid white;
+}
+.borderThree{
+  background-color:navy;
+}
+.fa-star{
+  color:white;
+}
 .star-five{
   margin:50px 0;
   position:relative;
