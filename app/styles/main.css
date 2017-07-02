@@ -1,20 +1,3 @@
-@font-face{
-  font-family:workSansLight;
-  src:url('../fonts/work-sans/WorkSans-Light.otf');
-}
-@font-face{
-  font-family:crossroads;
-  src:url('../fonts/Crossroads.ttf');
-}
-@font-face{
-  font-family:cutouts;
-  src:url('../fonts/CutOutsFLF.ttf');
-}
-body{
-  /*background-color:#00ffff !important;*/
-  background-color:#00bfff !important;
-  /*background-color:#1e90ff !important;*/
-}
 h1{
   font-family:crossroads !important;
   font-size:4em !important;
@@ -71,12 +54,6 @@ h1{
 .speech > span{
   font-size:3em;
   font-family:workSansLight;
-}
-h3{
-  font-family:crossroads !important;
-  text-align:center;
-  text-decoration:underline;
-  font-size:3em !important;
 }
 #book{
   margin-bottom:100px;
@@ -203,7 +180,6 @@ footer{
   text-align:center;
   font-family:crossroads;
 }
-
 #about > img{
   border-radius:20px;
 }

@@ -1,4 +1,26 @@
-
+@font-face{
+  font-family:workSansLight;
+  src:url('../fonts/work-sans/WorkSans-Light.otf');
+}
+@font-face{
+  font-family:crossroads;
+  src:url('../fonts/Crossroads.ttf');
+}
+@font-face{
+  font-family:cutouts;
+  src:url('../fonts/CutOutsFLF.ttf');
+}
+body{
+  /*background-color:#00ffff !important;*/
+  background-color:#00bfff !important;
+  /*background-color:#1e90ff !important;*/
+}
+h3{
+  font-family:crossroads !important;
+  text-align:center;
+  text-decoration:underline;
+  font-size:3em !important;
+}
 #header img{
   width:100%;
   margin-top:-7%;

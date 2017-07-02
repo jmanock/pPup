@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.one, .two, .three').hide();
-
+  
 }, showText('100'));
 
 function showText(){
