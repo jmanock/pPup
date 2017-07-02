@@ -53,28 +53,6 @@ h1{
   font-size:4em !important;
   color:navy !important;
 }
-.borderOne{
-  border-top:4px solid #c60000;
-  border-bottom:4px solid #c60000;
-}
-.borderTwo{
-  border-top:2px solid #f3f3f3;
-  border-bottom:2px solid #f3f3f3;
-}
-.borderThree{
-  background:linear-gradient(to right, #f3f3f3, navy, #f3f3f3);
-}
-.fa-star{
-  color:#f3f3f3;
-  overflow:hidden;
-  white-space:pre;
-  width:100%;
-  font-size:2em !important;
-  margin-top:2px;
-}
-.fa-star.fullwidth::before{
-  content:"\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005";
-}
 #welcome > img{
   margin-top:5%;
   margin-left:2%;
@@ -238,6 +216,31 @@ a:hover.note{
 footer{
   text-align:center;
   font-family:crossroads;
+}
+#sBorder{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:45px;
+}
+.borderOne{
+  border-top:5px solid #c60000;
+  border-bottom:5px solid #c60000;
+}
+.borderTwo{
+  border-top:3px solid #f3f3f3;
+  border-bottom:3px solid #f3f3f3;
+}
+.borderThree{
+  background:linear-gradient(to right, #f3f3f3, navy, #f3f3f3);
+}
+.fa-star{
+  color:white;
+  font-size:2em !important;
+}
+.fa-star:after{
+  content:'\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005\00a0\00a0\00a0\00a0\f005';
 }
 #about{
   /*font-family:crossroads;*/
