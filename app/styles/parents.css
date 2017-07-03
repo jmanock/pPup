@@ -11,3 +11,11 @@
 #parents > p > a{
   color:#f3f3f3;
 }
+#parents > .icons > a{
+  font-size:2.5em;
+  color:#f3f3f3;
+  margin-left:20px;
+}
+.icons{
+  margin-top:25px;
+}
