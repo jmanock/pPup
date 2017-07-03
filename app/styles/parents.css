@@ -1,0 +1,13 @@
+#parents{
+
+}
+#parents > img{
+  float:left;
+}
+#parents > p{
+  font-family:workSansLight;
+  font-size:1.4em;
+}
+#parents > p > a{
+  color:#f3f3f3;
+}
