@@ -17,6 +17,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/hb.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/lightbox2-master/src/css/lightbox.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- endbuild -->
@@ -44,11 +45,11 @@
          <div class="collapse navbar-collapse" id='bs-example'>
            <ul class='nav navbar-nav'>
              <li><a href="#"> <i class='fa fa-paw'></i>HOME<span class='sr-only'>(current)</span></a></li>
-             <li><a href="about.html"><i class='fa fa-paw'></i>ABOUT</a></li>
-             <li><a href="marketplace.html"><i class='fa fa-paw'></i> MARKETPLACE</a></li>
              <li><a href="kids.html"><i class='fa fa-paw'></i>PATRIOT KIDS</a></li>
-             <li><a href="parents.html"><i class='fa fa-paw'></i>PARENTS &amp; TEACHERS</a></li>
              <li><a href="gallery.html"><i class='fa fa-paw'></i>GALLERY</a></li>
+             <li><a href="parents.html"><i class='fa fa-paw'></i>PARENTS &amp; TEACHERS</a></li>
+             <li><a href="marketplace.html"><i class='fa fa-paw'></i> MARKETPLACE</a></li>
+             <li><a href="about.html"><i class='fa fa-paw'></i>ABOUT</a></li>
            </ul>
          </div>
        </div>
@@ -109,7 +110,7 @@
          <span class="pin"></span><br>
          <span class="text"><b>Date:</b> July 3rd 2017 <br><b>Place:</b> Trees</span>
        </a>
-       <a class='note sticky0'>
+       <a class='note sticky0' href='images/gallery/seventeen.jpg' data-lightbox='span' data-title='something'>
          <span class="pin"></span><br>
          <span class="text"><b>Date:</b> Saturday, March 5th <br><b>Place:</b> Downtown Hinton</span>
        </a>
@@ -131,7 +132,7 @@
    </section>
 
    <section id='footer'>
-     <p>PATRIOT PUP &copy;2017</p>
+     <p>PATRIOT PUP &copy;2017 <a href="" class='fa fa-facebook'></a> <a href=""class='fa fa-instagram'></a></p>
    </section>
 
 
@@ -147,9 +148,9 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/tether/dist/js/tether.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src='/bower_components/jquery/dist/jquery.js'></script>
+    <script src='/bower_components/tether/dist/js/tether.js'></script>
+    <script src='/bower_components/modernizr/modernizr.js'></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -169,6 +170,7 @@
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src='styles/lightbox2-master/src/js/lightbox.js'></script>
     <!-- endbuild -->
   </body>
 </html>
