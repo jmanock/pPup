@@ -6,7 +6,7 @@
 
   }
 }
-@media only screen and (max-width:400px){
+@media only screen and (min-width:400px){
   .pup{
     width:50%;
     height:50%;
@@ -55,23 +55,28 @@
   }
   #about > img{
     border-radius:20px;
+    margin-left:40px;
+  }
+  #about{
+    margin-bottom:100px;
   }
   .elisa{
     width:200px;
     height:200px;
-    float:left;
+    float:none;
     margin-left:10px;
     margin-right:10px;
   }
   .jason{
-    float:right;
-    margin-right:20px;
+    float:none;
+    display:none;
   }
   #about > p{
     font-family:workSansLight;
-    font-size:1.4em;
-    vertical-align:middle;
-    text-align:center;
+    font-size:1.2em;
+    vertical-align:none;
+    text-align:left;
+    margin-left:20px;
+    margin-right:10px;
   }
-
 }

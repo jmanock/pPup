@@ -1,6 +1,3 @@
-#parents{
-
-}
 #parents > img{
   float:left;
 }
@@ -18,4 +15,18 @@
 }
 .icons{
   margin-top:25px;
+}
+@media only screen and (max-width:400px){
+  #parents > img{
+    height:50%;
+    width:50%;
+    float:none;
+  }
+  #parents > p{
+    font-size:1.2em;
+    margin-left:20px;
+  }
+  .icons{
+    margin-left:30px;
+  }
 }
