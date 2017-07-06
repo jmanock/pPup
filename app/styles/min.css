@@ -7,25 +7,6 @@
   }
 }
 @media only screen and (max-width:400px){
-  button{
-    background-color:#333 !important;
-    position:absolute !important;
-    left:5px !important;
-    top:15px !important;
-    border:none !important;
-  }
-  .navbar-collapse{
-    width:60%;
-    margin-top:50px;
-    border:none !important;
-  }
-  .navbar-nav > li > a{
-    border:1px solid #333;
-  }
-  .navbar-nav > li > a:hover{
-    transform:none;
-    text-decoration:none;
-  }
   .pup{
     width:50%;
     height:50%;
