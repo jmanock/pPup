@@ -1,3 +1,6 @@
+#phone{
+  display:none;
+}
 @media only screen and (max-width:1025px){
   a{
     font-size:.8em !important;
@@ -27,17 +30,15 @@
     height:50%;
   }
   #corkBoard{
-    height:800px;
-  }
-  #frame{
-    background:url('../images/download.gif') no-repeat;
-    margin-left:0;
-    width:400px;
-    height:1000px;
-    margin-bottom:0;
-  }
-  .last{
     display:none;
+  }
+  #phone{
+    display:block;
+    margin-bottom:400px;
+    margin-left:40px;
+  }
+  .note{
+    background-color:orange;
   }
 
   #partners{
@@ -45,12 +46,12 @@
     margin-bottom:100px;
   }
   #partners > img{
-    margin-left:100px;
-    width:50%;
-    height:50%;
+    margin-left:0;
+    width:30%;
+    height:30%;
   }
   #partners > p{
-    font-size:1.3em;
+    font-size:1.2em;
     margin-right:0;
   }
   #about > img{
@@ -78,5 +79,14 @@
     text-align:left;
     margin-left:20px;
     margin-right:10px;
+  }
+}
+@media only screen and (max-width:535px){
+  #partners > img{
+    margin-left:20px;
+  }
+  #partners > p{
+    float:none;
+    margin-left:20px;
   }
 }
