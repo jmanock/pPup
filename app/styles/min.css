@@ -1,3 +1,87 @@
-@media only screen and (max-width:1025){
-  
+@media only screen and (max-width:1025px){
+  a{
+    font-size:.8em !important;
+  }
+  .talkbubble{
+
+  }
+}
+@media only screen and (max-width:400px){
+  button{
+    background-color:#333 !important;
+    position:absolute !important;
+    left:5px !important;
+    top:15px !important;
+  }
+  .pup{
+    width:50%;
+    height:50%;
+  }
+  .josh{
+    width:30%;
+    height:30%;
+  }
+  .talkbubble{
+    display:none;
+  }
+  #book{
+    margin-bottom:100px;
+  }
+  #book > p{
+    font-family:workSansLight;
+    font-size:1.3em;
+    padding-left:20px;
+  }
+  .bookCover{
+    width:50%;
+    height:50%;
+  }
+  #corkBoard{
+    height:800px;
+  }
+  #frame{
+    background:url('../images/download.gif') no-repeat;
+    margin-left:0;
+    width:400px;
+    height:1000px;
+    margin-bottom:0;
+  }
+  .last{
+    display:none;
+  }
+
+  #partners{
+    background-color:white;
+    margin-bottom:100px;
+  }
+  #partners > img{
+    margin-left:100px;
+    width:50%;
+    height:50%;
+  }
+  #partners > p{
+    font-size:1.3em;
+    margin-right:0;
+  }
+  #about > img{
+    border-radius:20px;
+  }
+  .elisa{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .jason{
+    float:right;
+    margin-right:20px;
+  }
+  #about > p{
+    font-family:workSansLight;
+    font-size:1.4em;
+    vertical-align:middle;
+    text-align:center;
+  }
+
 }
