@@ -71,7 +71,7 @@ button{
 .s{
   text-align:center;
 }
-@media only screen and (max-width:400px){
+@media only screen and (min-width:400px){
   #gallery{
     margin-left:40px;
   }
@@ -145,5 +145,30 @@ button{
   }
   .s{
     text-align:center;
+  }
+}
+@media only screen and (min-width:768px){
+  .pup{
+    width:30%;
+    height:30%;
+  }
+  .jlogo{
+    float:right;
+  }
+}
+@media only screen and (min-width:973px){
+  .pup{
+    float:left;
+  }
+  #kids{
+    font-size:.9em;
+    margin-right:20px;
+  }
+  .kArt{
+    width:200px;
+    height:200px;
+  }
+  button{
+    margin-top:5% !important;
   }
 }
