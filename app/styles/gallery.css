@@ -71,3 +71,79 @@ button{
 .s{
   text-align:center;
 }
+@media only screen and (max-width:400px){
+  #gallery{
+    margin-left:40px;
+  }
+  .thumb{
+    position:relative;
+    float:left;
+    width:150px;
+    height:150px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-left:3px;
+    padding-bottom:3px;
+  }
+  .thumb:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    transform:scale(1.1);
+    text-decoration:none;
+  }
+  #kids > p{
+    font-family:workSansLight;
+    font-size:1.3em;
+    margin-left:10px;
+  }
+  #kids > p > a{
+    color:#f3f3f3;
+  }
+  address{
+    font-family:workSansLight;
+    font-size:1.5em;
+    margin-left:30px;
+  }
+  .art{
+    margin-top:0px;
+    margin-left:40px;
+    margin-bottom:800px;
+  }
+  .kArt{
+    position:relative;
+    float:left;
+    width:100px;
+    height:100px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-left:3px;
+    padding-bottom:3px;
+  }
+  .kArt:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    transform:scale(1.1);
+    text-decoration:none;
+  }
+  form{
+    text-align:center;
+    margin-bottom:20px;
+  }
+  button{
+    font-size:1.5em !important;
+    background-color:#7fff00;
+  }
+  .pup{
+    float:none;
+    width:50%;
+    height:50%;
+  }
+  .jlogo{
+    float:none;
+  }
+  .s{
+    text-align:center;
+  }
+}

@@ -101,6 +101,7 @@ h3{
   }
   .navbar-nav > li > a{
     border:1px solid #333;
+    font-size:.8em;
   }
   .navbar-nav > li > a:hover{
     transform:none;
