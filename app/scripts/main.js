@@ -1,6 +1,10 @@
 $(document).ready(function(){
   $('.one, .two, .three').hide();
-  
+
+  $('button').on('click', function(){
+    $('.navbar-collapse').toggle();
+  });
+
 }, showText('100'));
 
 function showText(){
