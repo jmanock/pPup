@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="styles/test.css">
+<p id='start'>
+  A short time ago in a browser very, very close&hellip;
+</p>
+<h1>STAR WARS <sub>titles in css3</sub></h1>
+<div id="titles">
+  <div id="titlecontent">
+    <p class='center'>EPISODE IV <br> A NEW HOPE FOR CSS3</p>
+    <p>It is a period of vendor wars.</p>
+    <p>
+      This is a demostration of Star Wars - style scrolling 3d titles in css3. It possibly has no practical purpose whatsoever but it looks great and you can imprss your friends.
+    </p>
+    <p>Before movie-buffs start ranting, I realize Start Wars wasn't the first to use crawling 3d titles, but few of you will remember the Flash Gordon series of the 1936 adaption of HG Wells' "Things to Come".</p>
+    <p>
+      Also, by mentioning "Star Wars", everyone will understand what I mean. And I'll receive several thousand more views.
+    </p>
+    <p>The scrolling titles work well in Chrome, Safari and Firefox. Opera doesn't implement 3d transformation yet, but the text will scroll. IE users receive a blank page. A shame, but IE10 should support it.</p>
+    <p>
+      So how does it work? Well, it's fairly simple. We have an outer absolute DIV (#titles) which is rotated along the X-axis using perspective to give the impression of depth. The same DIV also has an :after psuedo-element which applies a linear gradient so the text appears to fade out.
+    </p>
+    <p>
+      Inside, we have another absolutely-positioned DIV which contains the text(#titlecontent). The top is set to 100% to ensure it starts off-screen then uses css3 animation to move it upward over time. No Javascript is required.
+    </p>
+    <p>
+      You will probably need to adjust the movement amount and timing dependng on the quantity of the text you want to show. The 3d depth can also be tweaked in the #titles declaration.
+    </p>
+    <p>All the code is contained in the single HTML file&hellip;</p>
+    <p>Sorry. Couldn't resist it.</p>
+    <p>Finally, Han shot first and the original, unadulterated movies remain the best. Stop fiddling with them.</p>
+
+  </div>
+</div>
