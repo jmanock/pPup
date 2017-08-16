@@ -25,6 +25,7 @@ p#start{
   -ms-animation:intro 2s ease-out;
   -o-animation:intro 2s ease-out;
   animation:intro 2s ease-out;
+
 }
 @-webkit-keyframse intro{
   0%{opacity:1;}

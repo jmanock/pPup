@@ -1,4 +1,4 @@
-h1{
+/*h1{
   font-family:crossroads !important;
   font-size:4em !important;
   color:navy !important;
@@ -102,7 +102,7 @@ h1{
   /*background-color:#ff9966;*/
   /*background-color:#ff7a00;*/
   /*background-color:#ff3855;*/
-  background-color:#ff007c;
+/*  background-color:#ff007c;
 }
 .sticky4{
   background-color:#fff700;
@@ -202,4 +202,55 @@ footer{
   font-size:1.4em;
   vertical-align:middle;
   text-align:center;
+}*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  background: radial-gradient(circle at top center, #333 0%, #111 100%);
+  overflow: hidden;
+}
+
+.wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 500px;
+  margin-left: -200px;
+  font: 300 30px/1 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  animation: 30s credits linear;
+  animation-iteration-count:1;
+}
+.after{
+  color:#fff;
+}
+.movie {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.job {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.name {
+  margin-bottom: 50px;
+  font-size: 35px;
+  text-align:left;
+  text-transform:none;
+}
+
+@keyframes credits {
+    0% { top:  100%; }
+  100% { top: -500%; }
 }
