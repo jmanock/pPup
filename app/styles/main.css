@@ -227,7 +227,7 @@ html, body {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  animation: 30s credits linear;
+  animation: 60s credits linear;
   animation-iteration-count:1;
 }
 .after{
@@ -253,4 +253,12 @@ html, body {
 @keyframes credits {
     0% { top:  100%; }
   100% { top: -500%; }
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+a:hover{
+  color:white;
+  text-decoration:underline;
 }
