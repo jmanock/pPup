@@ -26,5 +26,53 @@
   </head>
   <body>
     <h1 class='rotate'>Get your <br> <span class='dColor'>PATRIOT PUP</span> <span class='lColor'>Bundle</span> today for only $35 <br><a href='https://patriotpup.us/marketplace/p_28083/patriot-pup-bundle'><span class='lColor'>Click to order</span></a></h1>
+    <br><br><br><br>
+    <form id='test-form'>
+      <div>
+        <label>One</label>
+        <input type='text' name='one' placeholder='something'/>
+      </div>
+      <div>
+        <label>Two</label>
+        <input type='text' name='two' placeholder='two'/>
+      </div>
+      <div>
+        <label>Three</label>
+        <input type='text' name='three' placeholder='three' />
+      </div>
+      <div>
+        <label>Four</label>
+        <input type='text' name='four' placeholder='four' />
+      </div>
+      <div>
+        <button type='submit' id='submit-form'>Submit</button>
+      </div>
+    </form>
+    <script>
+    var $form = $('form#test-form');
+    var url = 'https://script.google.com/macros/s/AKfycbwhLzhhNo4gWXnn-sWDFoVFq-ygEAUXQ2m0WpDB1_TT3O90IU8/exec';
+    $('#submit-form').on('click', function(e){
+      e.preventDefault();
+      var jqxhr = $.ajax({
+        url:url,
+        method:'GET',
+        dataType:'json',
+        data:$form.serializedObject()
+      }).success(
+        console.log($form);
+      )
+    })
+    // $('#submit-form').on('click', function(e){
+    //   e.preventDefault();
+    //   var jqxhr = $.ajax({
+    //     url:url,
+    //     method:'GET',
+    //     dataType:'json',
+    //     data:$form.serializeObject()
+    //   }).success(
+    //     console.log(data);
+    //   );
+    // })
+    </script>
   </body>
 </html>
